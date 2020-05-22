@@ -1,0 +1,1210 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:800&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html{
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+body{
+	font-family: ;
+	font-size: 14px;
+	line-height: 24px;
+	overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: ;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+
+/***************************************
+	*** header-section CSS start ***
+***************************************/
+
+.header-section{
+	width: 100%;
+	padding: 0px 0px;
+	background: url(../images/hero.png) center top no-repeat;
+	background-size: cover;
+}
+.header-section .bg-light{
+    background: transparent !important;
+}
+.header-section .logo{
+	width: 120px;
+}
+.header-section .navbar-nav{
+	margin-top: -10px;
+}
+.header-section .navbar-nav .nav-item{
+	padding: 0px 15px;
+}
+.header-section .navbar-light .navbar-nav .nav-link{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 26px;
+	color: #000;
+}
+
+
+.hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: url(../images/layer-8.png) left bottom no-repeat;
+	background-size: 100%
+	color: #683be8;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+
+.hvr-radial-out:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    border-radius: 100%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+/*
+.header-section .navbar-light .navbar-nav .nav-link:hover{
+	background: url(../images/layer-8.png) left bottom no-repeat;
+	background-size: 100%
+	color: #683be8;
+}
+*/
+.header-section .nav .nav-item .nav-link{
+    display: block;
+    padding: .5rem 1rem;
+    color: #000;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    transition: 1s;
+}
+.header-section .nav .nav-item .btn{
+	font-family: 'Libre Franklin', sans-serif;
+	margin: 0px 30px;
+	padding: 10px 45px;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	background: linear-gradient(to left, #209bfe, #5725e5 60%);
+	color: #fff;
+	transition: 1s;
+}
+.header-section .nav .nav-item .btn:hover{
+	background: transparent;
+	color: #511de5;
+	border: 1px solid #511de5;
+}
+.banner-section{
+	width: 100%;
+	padding: 200px 0px;
+	text-align: right;
+}
+.banner-inner h1{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 55px;
+	font-weight: 800;
+	color: #000;
+}
+.banner-inner strong{
+	color: #683be8;
+}
+.banner-inner .btn{
+	padding: 7px 25px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	background: #f2f2f2;
+	color: #000;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border: 0px;
+	border-radius: 50px;
+	margin-top: 30px;
+}
+/*************************************
+	*** header-section CSS end ***
+*************************************/
+
+
+/******************************************
+	*** highlight-section CSS start ***
+******************************************/
+.highlight-section{
+	width: 100%;
+	background: url(../images/highlight-area.png)  no-repeat;
+	margin-top: -60px;
+	background-size: cover;
+}
+.highlight-inner{
+	width: 100%;
+	padding: 90px 0px 40px 0px;
+	text-align: center;
+}
+.highlight-inner h3{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 25px;
+	line-height: 35px;
+	font-weight: 700;
+	color: #fff;
+}
+/****************************************
+	*** highlight-section CSS end ***
+****************************************/
+
+
+
+/*****************************************
+	*** features-section CSS start ***
+*****************************************/
+.features-section{
+	width: 100%;
+	padding: 90px 0px 90px 0px;
+}
+.features-section .features-inner{
+	width: 100%;
+	background: url(../images/girl.png) center top no-repeat;
+	background-size: cover;
+	box-shadow: 1px 3px 18px 5px #CCD;
+	border-radius: 2px;
+}
+.features-section .features-inner .features-text{
+	padding: 70px 0px 70px 60px;
+	text-align: left;
+}
+.features-section .features-inner .features-text h2{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 35px;
+	line-height: 45px;
+	font-weight: 800;
+	color: #000;
+	margin-bottom: 50px;
+}
+.features-section .features-inner .features-text p{
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 50px;
+}
+.features-section .features-inner .features-text h1{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 14px;
+	line-height: ;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 60px;
+}
+.features-section .features-inner .features-text strong{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 85px;
+	line-height: 95px;
+	font-weight: 800;
+	color: #000;
+	background: linear-gradient(to left, #209bfe, #5725e5 60%);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+/***************************************
+	*** features-section CSS end ***
+***************************************/
+
+
+
+/***************************************
+	*** client-section CSS start ***
+***************************************/
+.client-section{
+	padding: 40px 0px 40px 0px;
+	text-align: center;
+}
+.client-section img{
+	width: 80%;
+}
+/*************************************
+	*** client-section CSS end ***
+*************************************/
+
+
+
+/**********************************
+	*** intro-section start ***
+**********************************/
+.intro-section{
+	width: 100%;
+	padding: 200px 0px;
+	background: url(../images/rectangle-8.png) center top no-repeat;
+	background-size: cover;
+}
+.intro-section .intro-inner {
+    width: 100%;
+    background: url(../images/quote.png) center top no-repeat;
+    background-size: cover;
+    padding: 0px 0px;
+    margin: 0px auto;
+}
+.intro-section .intro-inner .intro-content{
+    width: 81%;
+    margin: 0px auto;
+    padding: 195px 100px;
+}
+.intro-section .intro-inner .intro-content p{
+	font-family: ;
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: 100;
+	color: #fff;
+	text-align: left;
+}
+.intro-section .intro-inner .intro-content h6{
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 700;
+	color: #fff;
+}
+.intro-section .intro-content-right{
+	width: 100%;
+	padding: 150px 0px;
+}
+.intro-section .intro-content-right h2{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 38px;
+	line-height: 45px;
+	font-weight: 800;
+	color: #000;
+}
+.intro-section .intro-content-right .btn{
+	padding: 7px 25px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	background: #f2f2f2;
+	color: #000;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border: 0px;
+	border-radius: 50px;
+	margin-top: 30px;
+}
+/********************************
+	*** intro-section end ***
+********************************/
+
+
+
+/********************************
+	*** faq-section start ***
+********************************/
+.faq-section{
+	width: 100%;
+	padding: 60px 0px 120px 0px;
+}
+.faq-section .faq-inner h2{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 40px;
+	line-height: 45px;
+	font-weight: 800;
+	color: #000;
+}
+.faq-section .faq-inner p{
+	font-family: ;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 600;
+	color: #000;
+	text-align: left;
+	margin-top: 20px;
+}
+.faq-section .faq-inner h6{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #000;
+	margin: 20px 0px;
+}
+.faq-section .faq-inner img{
+	padding: 0px 20px 0px 0px;
+}
+.faq-section .faq-inner .btn{
+	padding: 9px 25px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 14px;
+	font-weight: 100;
+	background: linear-gradient(to left, #209bfe, #5725e5 70%);
+	color: #fff;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	border: 0px;
+	border-radius: 50px;
+	margin-top: 20px;
+	transition: 1s!important;
+}
+.faq-section .faq-inner .btn:hover{
+	background: #fff;
+	color: #5725e5;
+}
+.faq-section .faq-right{
+	width: 100%;
+	padding: 200px 0px;
+	background: url(../images/images.png) center top no-repeat;
+	background-size: cover;
+}
+/******************************
+	*** faq-section end ***
+******************************/
+
+
+
+/**************************************
+	*** effciency-section start ***
+**************************************/
+.effciency-section{
+	width: 100%;
+	padding: 70px 0px 70px 0px;
+	background: #fcfcfc;
+	border-top: 1px solid #e9e9e9;
+	border-bottom: 1px solid #e9e9e9;
+}
+.effciency-section .effciency-section-top{
+	width: 100%;
+	text-align: center;
+}
+.effciency-section .effciency-section-top h1{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 47px;
+	font-weight: 800;
+	line-height: 53px;
+}
+.effciency-section .effciency-section-top p{
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 30px;
+}
+.effciency-section .bottom{
+	padding: 50px 0px 10px 0px;
+}
+.effciency-section .effciency-section-bottom{
+	text-align: center;
+}
+.effciency-section .effciency-section-bottom img{
+	width: 35%;
+	margin-bottom: 10px;
+}
+.effciency-section .effciency-section-bottom h5{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 24px;
+	line-height: 44px;
+	font-weight: 700;
+}
+.effciency-section .effciency-section-bottom p{
+	font-family: ;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 600;
+}
+.effciency-section .content{
+	border-right: 1px solid #e9e9e9;
+}
+
+/************************************
+	*** effciency-section end ***
+************************************/
+
+
+
+/********************************
+	*** quote-section end ***
+********************************/
+.quote-section{
+	width: 100%;
+	background-color: #fff;
+	padding: 80px 0px;
+	text-align: center;
+}
+.quote-section h1{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 45px;
+	font-weight: 800;
+	margin-bottom: 60px;
+}
+.quote-section .content{
+	padding: 100px 10px 20px 10px;
+	background: url(../images/01.png) center top no-repeat;
+	background-size: cover;
+	opacity: 0.4;
+	transition: .8s;
+}
+.quote-section .content:hover{
+	box-shadow: 1px 4px 25px 4px #e9e9e9;
+	opacity: 1;
+}
+.quote-section .content:hover p{
+	background: linear-gradient(to left, #209bfe, #5725e5 55%);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.quote-section .content p{
+	font-family: ;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 700;
+}
+.quote-section .content img{
+ 	margin-top: 120px;
+ }
+.quote-section .content h5{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 16px;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.quote-section .content h6{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #676767;
+	margin-top: 10px;
+}
+/********************************
+	*** quote-section end ***
+********************************/
+
+
+/*********************************
+	*** faq2-section start ***
+*********************************/
+.faq2-section{
+	width: 100%;
+	padding: 20px 0px;
+}
+.faq2-inner{
+	padding: 70px 70px;
+	background: #fff;
+	box-shadow: 1px -5px 7px 2px #e9e9e9;
+}
+.faq2-inner h1{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 45px;
+	font-weight: 800;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.faq2-inner h4{
+	font-family: 'Libre Franklin', sans-serif
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 700;
+	text-align: left;
+	color: #0000ff;
+}
+.faq2-inner p{
+	font-family: ;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 400;
+	text-align: left;
+	color: #000;
+	margin: 15px 0px 50px 0px;
+}
+.faq2-inner .heading{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 700;
+	text-align: left;
+	color: #000;
+}
+/*******************************
+	*** faq2-section end ***
+*******************************/
+
+
+/***********************************
+	*** footer-section start ***
+***********************************/
+.footer-section{
+	width: 100%;
+	margin-top: -480px;
+	background: url(../images/footer.png) center bottom no-repeat;
+	background-size: cover;
+}
+.footer-section .footer-inner{
+	width: 100%;
+}
+.footer-section .nav{
+	margin-top: 550px;
+	margin-bottom: 70px;
+}
+.footer-section .nav .nav-item .nav-link{
+	color: #fff;
+	font-weight: 700;
+}
+.footer-section .nav .copywrite{
+	margin-left: 380px;
+	margin-top: 8px;
+}
+.footer-section .nav .nav-item .copy{
+	font-family: ;
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+}
+/*********************************
+	*** footer-section end ***
+*********************************/
+
+
+
+.is-sticky .header-menu{
+	background: #F6F6F6 !important;
+	padding: 0px 0px;
+	transition: 1s;
+	width: 100%;
+	border-bottom: 3px solid #511DE5;
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #511DE5; 
+  color: white; 
+  cursor: pointer; 
+  padding: 5px 12px; 
+  border-radius: 2px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #555; 
+}
+
+
+.faq2-section .web{
+	display: block;
+}
+.faq2-section .responsive{
+	display: none;
+}
+.features-section .web{
+	display: block;
+}
+.features-section .responsive{
+	display: none;
+}
+.effciency-section .web{
+	display: block;
+}
+.effciency-section .responsive{
+	display: none;
+}
+
+
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  	.banner-section {
+	    width: 100%;
+	    padding: 108px 0px;
+	    text-align: right;
+	}
+	.features-section .features-inner {
+	    background: url(../images/girl.png) center bottom no-repeat;
+	    background-size: 100%;
+	}
+	.features-section .features-inner .features-text {
+	    padding: 50px 0px 50px 40px;
+	    text-align: left;
+	}
+	.intro-section .intro-inner {
+	    background-size: 100%;
+	    padding: 0px 0px;
+	}
+	.intro-section .intro-content-right {
+	    padding: 132px 0px;
+	}
+	.intro-section .intro-inner .intro-content {
+	    width: 100%;
+	    margin: 0px auto;
+	    padding: 172px 0px 172px 153px;
+	}
+	.faq-section .faq-right {
+	    padding: 168px 0px;
+	    margin-top: 30px;
+	}
+	.quote-section .content img {
+	    margin-top: 130px;
+	}
+	.faq2-inner h1 {
+	    text-align: center;
+	}
+	.footer-section {
+	    margin-top: -555px;
+	    background-size: 100%;
+	}
+	.footer-section .nav {
+	    margin-top: 550px;
+	    margin-bottom: 1px;
+	}
+	.footer-section .nav .copywrite {
+	    margin-left: 21%;
+	    margin-top: 9px;
+	}
+
+	.faq2-section .web{
+		display: block;
+	}
+	.faq2-section .responsive{
+		display: none;
+	}
+	.features-section .web{
+		display: block;
+	}
+	.features-section .responsive{
+		display: none;
+	}
+	.effciency-section .web{
+		display: block;
+	}
+	.effciency-section .responsive{
+		display: none;
+	}
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  	.header-section{
+  		padding: 0px 0px 55px 0px;
+  	}
+  	.header-section .navbar-nav {
+	    margin-top: 0px;
+	    text-align: center;
+	    margin-bottom: 20px;
+	}
+	.header-section .navbar-nav .nav-item {
+	    padding: 5px 0px;
+	}
+	.header-section .nav-2 .item-1{
+		margin-left: 37%;
+	}
+	.navbar-collapse {
+	    background: #fff;
+	    z-index: 15;
+	    margin-top: -20px;
+	    padding: 30px 0px;
+	}
+	.navbar-light .navbar-toggler {
+	    color: #5725E5!important;
+	    border-color: #5725E5;
+	    background: #fff;
+	}
+	.banner-section {
+	    width: 100%;
+	    padding: 30px 0px 50px;
+	    text-align: right;
+	}
+	.banner-inner h1 {
+	    font-size: 35px;
+	}
+	.highlight-section {
+	    margin-top: -63px;
+	}
+	.features-section .features-inner {
+	    background: url(../images/girl.png) center bottom no-repeat;
+	    background-size: 100%;
+	}
+	.features-section .features-inner .features-text {
+	    padding: 70px 0px 1px 42px;
+	}
+	.client-section img {
+	    width: 90%;
+	}
+	.intro-section {
+	    padding: 100px 0px;
+	    background-size: 100%;
+	}
+	.intro-section .intro-inner {
+	    background: url(../images/quote.png) center top no-repeat;
+	    background-size: 100%;
+	}
+	.intro-section .intro-inner .intro-content {
+	    width: 92%;
+	    margin-left: 81px;
+	    padding: 104px 0px;
+	}
+	.intro-section .intro-content-right {
+	    width: 100%;
+	    padding: 58px 0px;
+	}
+	.intro-section .intro-content-right h2 {
+	    font-size: 30px;
+	    line-height: 40px;
+	}
+	.faq-section .faq-inner h2 {
+	    font-size: 30px;
+	    line-height: 40px;
+	}
+	.faq-section .faq-inner p {
+	    margin-bottom: 30px;
+	}
+	.faq-section .faq-right {
+	    padding: 125px 0px;
+	    margin-top: 80px;
+	}
+	.faq-section .faq-inner h6 {
+	    font-size: 12px;
+	    line-height: 22px;
+	}
+	.faq-section .faq-inner .btn {
+		font-size: 12px;
+	    margin-top: 0px;
+	}
+	.effciency-section .effciency-section-top h1 {
+	    font-size: 30px;
+	    line-height: 40px;
+	}
+	.effciency-section .bottom {
+	    padding: 30px 0px 10px 0px;
+	}
+	.effciency-section .effciency-section-bottom h5 {
+	    font-size: 20px;
+	    line-height: 40px;
+	}
+	.effciency-section .effciency-section-bottom p {
+	    font-size: 13px;
+	    line-height: 22px;
+	}
+	.quote-section h1 {
+	    font-size: 30px;
+	    line-height: 40px;
+	    margin-bottom: 40px;
+	}
+	.col-md-3 {
+	    -ms-flex: 0 0 50%;
+	    flex: 0 0 50%;
+	    max-width: 50%;
+	}
+	.faq2-inner h1 {
+	    font-size: 30px;
+	    margin-bottom: 40px;
+	}
+	.faq2-section .responsive {
+	    margin-top: 25px;
+	    margin-bottom: 25px;
+	}
+	.footer-section {
+	    margin-top: -520px;
+	}
+	.footer-section .nav {
+	    margin-top: 550px;
+	    margin-bottom: 45px;
+	}
+	.footer-section .nav .copywrite {
+	    margin-left: 380px;
+	    margin-top: -31px;
+	}
+
+	.faq2-section .web{
+		display: none;
+	}
+	.faq2-section .responsive{
+		display: block;
+	}
+	.features-section .web{
+		display: block;
+	}
+	.features-section .responsive{
+		display: none;
+	}
+	.effciency-section .web{
+		display: block;
+	}
+	.effciency-section .responsive{
+		display: none;
+	}
+		  
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  	.header-section {
+	    padding: 0px 0px 50px 0px;
+	}
+  	.header-section .navbar-nav {
+	    margin-top: 0px;
+	    text-align: center;
+	}
+	.header-section .nav-2 .item-1{
+		margin-left: 22%;
+	}
+	.header-section .navbar-nav .nav-item {
+	    padding: 5px 0px;
+	}
+	.navbar-collapse {
+	    background: #fff;
+	    z-index: 15;
+	    margin-top: -20px;
+	    padding: 30px 0px;
+	}
+	.navbar-light .navbar-toggler {
+	    color: #5725E5!important;
+	    border-color: #5725E5;
+	    background: #fff;
+	    margin-right: 30px;
+	}
+	.banner-section {
+	    width: 100%;
+	    padding: 10px 0px;
+	    text-align: center;
+	}
+	.banner-inner h1 {
+	    font-size: 25px;
+	}
+	.banner-inner .btn {
+	    margin-top: 10px;
+	}
+	.highlight-inner h3 {
+	    font-size: 18px;
+	    line-height: 28px;
+	}
+	.features-section .features-inner .features-text {
+	    padding: 50px 40px 1px 40px;
+	}
+	.features-section .features-inner .features-text h2 {
+	    font-size: 25px;
+	    line-height: 35px;
+	    margin-bottom: 25px;
+	}
+	.features-section .features-inner .features-text p {
+	    margin-bottom: 25px;
+	}
+	.client-section img {
+	    width: 100%;
+	}
+	.intro-section {
+	    padding: 100px 0px;
+	    background-size: 100%;
+	}
+	.intro-section .intro-inner {
+	    background: url(../images/quote.png) center top no-repeat;
+	    background-size: 100%;
+	}
+	.intro-section .intro-inner .intro-content {
+	    width: 92%;
+	    margin-left: 138px;
+	    padding: 159px 0px;
+	}
+	.intro-section .intro-content-right {
+	    width: 100%;
+	    padding: 58px 0px;
+	    text-align: center;
+	}
+	.intro-section .intro-content-right h2 {
+	    font-size: 30px;
+	    line-height: 40px;
+	}
+	.faq-section .faq-inner h2 {
+	    font-size: 30px;
+	    line-height: 40px;
+	}
+	.faq-section .faq-right {
+	    padding: 169px 0px;
+	    margin-top: 50px;
+	}
+	.effciency-section .effciency-section-top h1 {
+	    font-size: 25px;
+	    line-height: 35px;
+	}
+	.effciency-section .effciency-section-bottom h5 {
+	    font-size: 20px;
+	    line-height: 40px;
+	}
+	.effciency-section .effciency-section-bottom p {
+	    font-size: 13px;
+	    line-height: 22px;
+	}
+	.quote-section h1 {
+	    font-size: 30px;
+	    line-height: 40px;
+	    margin-bottom: 40px;
+	}
+	.col-md-3 {
+	    -ms-flex: 0 0 50%;
+	    flex: 0 0 50%;
+	    max-width: 50%;
+	}
+	.faq2-inner h1 {
+	    font-size: 25px;
+	    margin-bottom: 30px;
+	}
+	.faq2-section .responsive {
+	    display: block;
+	    margin-bottom: 15px;
+	}
+	.footer-section {
+	    margin-top: -639px;
+	}
+	.footer-section .nav .copywrite {
+	    margin-left: 15px;
+	    margin-top: 0px;
+	}
+	.footer-section .nav {
+	    margin-top: 665px;
+	    margin-bottom: 40px;
+	}
+	.footer-section .nav .copywrite {
+	    margin-left: 15px;
+	    margin-top: 0px;
+	}
+
+	.features-section .web{
+		display: none;
+	}
+	.features-section .responsive{
+		display: block;
+	}
+	.faq2-section .web{
+		display: none;
+	}
+	.faq2-section .responsive{
+		display: block;
+	}
+	.effciency-section .web{
+		display: none;
+	}
+	.effciency-section .responsive{
+		display: block;
+	}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  	.header-section {
+	    padding: 0px 0px 50px 0px;
+	}
+  	.header-section .navbar-nav {
+	    margin-top: 0px;
+	    text-align: center;
+	}
+	.header-section .nav-2 .item-1 {
+	    margin-left: 0%;
+	}
+	.header-section .nav-2 .item-2{
+		margin-top: -46px;
+    	margin-left: 71px;
+	}
+	.header-section .navbar-nav .nav-item {
+	    padding: 5px 0px;
+	}
+	.navbar-collapse {
+	    background: #fff;
+	    z-index: 15;
+	    margin-top: -20px;
+	    padding: 30px 0px;
+	}
+	.navbar-light .navbar-toggler {
+	    color: #5725E5!important;
+	    border-color: #5725E5;
+	    background: #fff;
+	    margin-right: 30px;
+	}
+	.banner-section {
+	    width: 100%;
+	    padding: 10px 0px;
+	    text-align: center;
+	}
+	.banner-inner h1 {
+	    font-size: 25px;
+	}
+	.banner-inner .btn {
+	    margin-top: 10px;
+	}
+	.highlight-inner h3 {
+	    font-size: 18px;
+	    line-height: 28px;
+	}
+	.features-section .features-inner .features-text {
+	    padding: 50px 40px 1px 40px;
+	}
+	.features-section .features-inner .features-text strong {
+	    font-size: 25px;
+	    line-height: 35px;
+	    margin-right: 5px;
+	}
+	.features-section .features-inner .features-text h2 {
+	    font-size: 18px;
+	    line-height: 28px;
+	    margin-bottom: 25px;
+	}
+	.features-section .features-inner .features-text p {
+	    margin-bottom: 25px;
+	}
+	.client-section img {
+	    width: 100%;
+	}
+	.intro-section {
+	    padding: 100px 0px;
+	    background-size: 100%;
+	}
+	.intro-section .intro-inner {
+	    background: url(../images/quote.png) center top no-repeat;
+	    background-size: 100%;
+	}
+	.intro-section .intro-inner .intro-content {
+	    width: 92%;
+	    margin-left: 52px;
+	    padding: 85px 0px;
+	}
+	.intro-section .intro-content-right {
+	    width: 100%;
+	    padding: 58px 0px;
+	    text-align: center;
+	}
+	.intro-section .intro-content-right h2 {
+	    font-size: 25px;
+	    line-height: 35px;
+	}
+	.faq-section {
+	    width: 100%;
+	    padding: 0px 0px 60px 0px;
+	}
+	.faq-section .faq-inner h2 {
+	    font-size: 25px;
+	    line-height: 35px;
+	}
+	.faq-section .faq-right {
+	    padding: 109px 0px;
+	    margin-top: 50px;
+	}
+	.effciency-section .effciency-section-top h1 {
+	    font-size: 25px;
+	    line-height: 35px;
+	}
+	.effciency-section .effciency-section-bottom h5 {
+	    font-size: 20px;
+	    line-height: 40px;
+	}
+	.effciency-section .effciency-section-bottom p {
+	    font-size: 13px;
+	    line-height: 22px;
+	}
+	.quote-section h1 {
+	    font-size: 25px;
+	    line-height: 35px;
+	    margin-bottom: 30px;
+	}
+	.quote-section .col-md-3 {
+	    -ms-flex: 0 0 100%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+	.faq2-inner {
+	    padding: 40px 30px;
+	}
+	.faq2-inner h1 {
+	    font-size: 23px;
+	    margin-bottom: 15px;
+	}
+	.faq2-inner h4 {
+	    font-size: 16px;
+	    line-height: 26px;
+	}
+	.faq2-inner .heading {
+	    font-size: 12px;
+	    line-height: 22px;
+	}
+	.faq2-section .responsive {
+	    display: block;
+	    margin-bottom: 15px;
+	}
+	.footer-section {
+	    margin-top: -639px;
+	}
+	.footer-section .nav .copywrite {
+	    margin-left: 15px;
+	    margin-top: 0px;
+	}
+	.footer-section .nav {
+	    margin-top: 665px;
+	    margin-bottom: 40px;
+	}
+	.footer-section .nav .copywrite {
+	    margin-left: 15px;
+	    margin-top: 10px;
+	}
+
+	.features-section .web{
+		display: none;
+	}
+	.features-section .responsive{
+		display: block;
+	}
+	.faq2-section .web{
+		display: none;
+	}
+	.faq2-section .responsive{
+		display: block;
+	}
+	.effciency-section .web{
+		display: none;
+	}
+	.effciency-section .responsive{
+		display: block;
+	}
+  
+}
